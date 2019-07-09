@@ -22,8 +22,6 @@ public class GoodsAction extends HttpServlet {
     public GoodsAction() {
         super();
         
-        
-        // TODO Auto-generated constructor stub
     }
 
 	/**
@@ -38,6 +36,6 @@ public class GoodsAction extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+			System.out.println("´ó¼ÒºÃ°¡");
 	}
 }
