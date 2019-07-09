@@ -22,6 +22,7 @@ public class GoodsAction extends HttpServlet {
     public GoodsAction() {
         super();
         
+        
         // TODO Auto-generated constructor stub
     }
 
