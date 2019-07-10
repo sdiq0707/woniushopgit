@@ -36,6 +36,14 @@ public class GoodsAction extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-			System.out.println("´ó¼ÒºÃ°¡");
+			String method = request.getParameter("method");
+			if(method==null||method.equals("findAll")) {
+				findAll(request,response);
+			}
+	}
+
+	private void findAll(HttpServletRequest request, HttpServletResponse response) {
+		// TODO Auto-generated method stub
+		
 	}
 }
